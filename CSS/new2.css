@@ -1,0 +1,48 @@
+.damn {
+    background-color: #131313;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+}
+
+@font-face {
+    font-family: Mont;
+    src: url(..//fonts/Montserrat-Regular.ttf);
+}
+
+.newbar {
+
+    font-family: Mont;
+    font-size: 18px;
+}
+
+.damn2 {
+    background-color: #ffd75f;
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -5;
+}
+
+.sides {
+
+    background-color: #ffd75f;
+    width: 200px;
+    height: 200px;
+    z-index: 50;
+}
+
+.damn3 {
+    background-color: #76e1ff;
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -5;
+}

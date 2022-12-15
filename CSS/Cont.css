@@ -1,0 +1,111 @@
+
+@font-face {
+    font-family: Mont;
+    src: url(..//fonts/Montserrat-Regular.ttf);
+}
+
+
+
+/* Style inputs, select elements and textareas */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    font-family: Mont;
+}
+
+/* Style the label to display next to the inputs */
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-family: Mont;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: #1a04aa;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-family: Mont;
+}
+
+/* Style the container */
+.container {
+    border: 3px solid black;
+    background-color: #7ffbff;
+    padding: 20px;
+    font-family: Mont;
+    width: 800px ;
+    position: absolute;
+    left: 340px;
+    top: 270px;
+    
+}
+
+.containerX {
+    border: 3px solid black;
+    background-color: #000000;
+    padding: 20px;
+    font-family: Mont;
+    width: 800px;
+    position: absolute;
+    left: 350px;
+    top: 280px;
+    height: 398px;
+    z-index: -1;
+
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    font-family: Mont;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+    font-family: Mont;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    font-family: Mont;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+        font-family: Mont;
+    }
+}
+
+@font-face {
+    font-family: Kite;
+    src: url(..//fonts/NeueMetanaNext-SemiBold.ttf);
+}
+
+
+
+

@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Mont;
+    src: url(..//fonts/Montserrat-Regular.ttf);
+}
+
+.navbar a {
+    font-family: Mont !important;
+    font-size: 18px !important
+}
+
+
+@font-face {
+    font-family: Kite;
+    src: url(..//fonts/NeueMetanaNext-SemiBold.ttf);
+}
+

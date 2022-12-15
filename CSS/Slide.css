@@ -1,0 +1,22 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    width: 80%;
+    height: 80%;
+    padding-bottom: 40%;
+    background: #8d8d8d;
+    border: 3px solidd #000000;
+}
+
+.slide_img img {
+    width: 100%;
+    height: 100%;
+}

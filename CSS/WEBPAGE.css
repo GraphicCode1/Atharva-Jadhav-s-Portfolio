@@ -1,0 +1,143 @@
+html {
+
+    font-size: 62.5%
+}
+
+@font-face {
+    font-family: Mont;
+    src: url(..//fonts/Montserrat-Regular.ttf);
+}
+
+.navbar a {
+    font-family: Mont !important;
+    font-size: 18rem !important
+}
+
+
+
+.comb {
+
+    font-size: 8rem;
+
+    font-family: NEO;
+}
+
+
+@font-face {
+    font-family: pop;
+    src: url('NeueMetanaNext-SemiBold.ttf')
+}
+
+@font-face {
+    font-family: Kite;
+    src: url(..//fonts/NeueMetanaNext-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Shiva;
+    src: url(..//fonts/Bahun\ Regular.ttf);
+}
+
+
+
+.image-bgm {
+    width: 52%;
+    height: 75rem;
+    position: absolute;
+    top: 100rem;
+    left: 72.9rem;
+    background-color: #24fa8f;
+    z-index: 5;
+
+}
+
+.Pouch {
+    background-color: #24fa8f;
+    width: 52%;
+    height: 75rem;
+    position: relative;
+    top: 85.2rem;
+    left: 72.9rem;
+    padding-left: 0rem;
+    padding-top: 7.1rem;
+    z-index: 5;
+}
+
+
+.Box {
+    background-color: #ffffff;
+    width: 48.1%;
+    height: 75rem;
+    position: relative;
+    top: 85.2rem;
+    left: 0rem;
+    z-index: 5;
+}
+
+.Roll {
+    font-size: 20px;
+    font-family: Kite;
+    position: relative;
+    width: 60%;
+    margin-top: 13rem;
+    margin-left: 9rem;
+}
+
+.Hello {
+        font-size: 80px;
+        font-family: Kite;
+        position: relative;
+        width: 60%;
+        margin-top: 120px;
+        margin-left: 95px;
+        
+}
+
+
+
+.Dice {
+    font-size: 2rem;
+    font-family: Mont;
+    position: relative;
+    width: 60%;
+    margin-top: 3rem;
+    margin-left: 10rem;
+}
+
+
+.Rope {
+
+
+    font-size: 2rem;
+    font-family: Mont;
+    position: relative;
+    width: 60%;
+    margin-top: 1.5rem;
+    margin-left: 10rem;
+
+}
+
+
+.Hope {
+
+    border: 0rem black solid;
+    font-size: 2rem;
+    font-family: Mont;
+    position: relative;
+    width: 60%;
+    margin-top: 1.5rem;
+    margin-left: 10rem;
+
+}
+
+/* @media(max-width:998rpx) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px) {
+    html {
+        font-size: 45%;
+    }
+} */
